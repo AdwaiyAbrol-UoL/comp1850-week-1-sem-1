@@ -7,15 +7,10 @@ try:
     num1=int(input("Kindly enter your first number:"))
     num2=int(input("Kindly enter your second number:"))
     
-
-# print out the answer
-    print(f"You entered {num1} and {num2}, which when added together, give us {answer} as the final answer")
-except:
-    print("Please enter numbers only.")
 # multiply those numbers together
     answer= num1 * num2
 # print out the result
-    print(f"You entered {num1} and {num2}, which when added together, give us {answer} as the final answer")
+    print(f"You entered {num1} and {num2}, which when multiplied together, give us {answer} as the final answer")
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints
 # 'That is not a number' and exits.
